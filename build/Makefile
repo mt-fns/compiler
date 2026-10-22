@@ -129,6 +129,54 @@ compiler/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/compiler.dir/build.make CMakeFiles/compiler.dir/build
 .PHONY : compiler/fast
 
+src/Colour.o: src/Colour.cpp.o
+.PHONY : src/Colour.o
+
+# target to build an object file
+src/Colour.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compiler.dir/build.make CMakeFiles/compiler.dir/src/Colour.cpp.o
+.PHONY : src/Colour.cpp.o
+
+src/Colour.i: src/Colour.cpp.i
+.PHONY : src/Colour.i
+
+# target to preprocess a source file
+src/Colour.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compiler.dir/build.make CMakeFiles/compiler.dir/src/Colour.cpp.i
+.PHONY : src/Colour.cpp.i
+
+src/Colour.s: src/Colour.cpp.s
+.PHONY : src/Colour.s
+
+# target to generate assembly for a file
+src/Colour.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compiler.dir/build.make CMakeFiles/compiler.dir/src/Colour.cpp.s
+.PHONY : src/Colour.cpp.s
+
+src/ErrorReporter.o: src/ErrorReporter.cpp.o
+.PHONY : src/ErrorReporter.o
+
+# target to build an object file
+src/ErrorReporter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compiler.dir/build.make CMakeFiles/compiler.dir/src/ErrorReporter.cpp.o
+.PHONY : src/ErrorReporter.cpp.o
+
+src/ErrorReporter.i: src/ErrorReporter.cpp.i
+.PHONY : src/ErrorReporter.i
+
+# target to preprocess a source file
+src/ErrorReporter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compiler.dir/build.make CMakeFiles/compiler.dir/src/ErrorReporter.cpp.i
+.PHONY : src/ErrorReporter.cpp.i
+
+src/ErrorReporter.s: src/ErrorReporter.cpp.s
+.PHONY : src/ErrorReporter.s
+
+# target to generate assembly for a file
+src/ErrorReporter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compiler.dir/build.make CMakeFiles/compiler.dir/src/ErrorReporter.cpp.s
+.PHONY : src/ErrorReporter.cpp.s
+
 src/Position.o: src/Position.cpp.o
 .PHONY : src/Position.o
 
@@ -225,29 +273,29 @@ src/Token.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/compiler.dir/build.make CMakeFiles/compiler.dir/src/Token.cpp.s
 .PHONY : src/Token.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/compiler.o: src/compiler.cpp.o
+.PHONY : src/compiler.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/compiler.dir/build.make CMakeFiles/compiler.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/compiler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compiler.dir/build.make CMakeFiles/compiler.dir/src/compiler.cpp.o
+.PHONY : src/compiler.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/compiler.i: src/compiler.cpp.i
+.PHONY : src/compiler.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/compiler.dir/build.make CMakeFiles/compiler.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/compiler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compiler.dir/build.make CMakeFiles/compiler.dir/src/compiler.cpp.i
+.PHONY : src/compiler.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/compiler.s: src/compiler.cpp.s
+.PHONY : src/compiler.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/compiler.dir/build.make CMakeFiles/compiler.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/compiler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compiler.dir/build.make CMakeFiles/compiler.dir/src/compiler.cpp.s
+.PHONY : src/compiler.cpp.s
 
 # Help Target
 help:
@@ -258,6 +306,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... compiler"
+	@echo "... src/Colour.o"
+	@echo "... src/Colour.i"
+	@echo "... src/Colour.s"
+	@echo "... src/ErrorReporter.o"
+	@echo "... src/ErrorReporter.i"
+	@echo "... src/ErrorReporter.s"
 	@echo "... src/Position.o"
 	@echo "... src/Position.i"
 	@echo "... src/Position.s"
@@ -270,9 +324,9 @@ help:
 	@echo "... src/Token.o"
 	@echo "... src/Token.i"
 	@echo "... src/Token.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/compiler.o"
+	@echo "... src/compiler.i"
+	@echo "... src/compiler.s"
 .PHONY : help
 
 

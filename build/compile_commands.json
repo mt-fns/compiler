@@ -1,8 +1,18 @@
 [
 {
   "directory": "/home/leagueplayer/compiler/build",
-  "command": "/usr/bin/g++  -I/home/leagueplayer/compiler/include -g -Wall -Wextra -Wpedantic -std=c++20 -o CMakeFiles/compiler.dir/src/main.cpp.o -c /home/leagueplayer/compiler/src/main.cpp",
-  "file": "/home/leagueplayer/compiler/src/main.cpp"
+  "command": "/usr/bin/g++  -I/home/leagueplayer/compiler/include -g -Wall -Wextra -Wpedantic -std=c++20 -o CMakeFiles/compiler.dir/src/Colour.cpp.o -c /home/leagueplayer/compiler/src/Colour.cpp",
+  "file": "/home/leagueplayer/compiler/src/Colour.cpp"
+},
+{
+  "directory": "/home/leagueplayer/compiler/build",
+  "command": "/usr/bin/g++  -I/home/leagueplayer/compiler/include -g -Wall -Wextra -Wpedantic -std=c++20 -o CMakeFiles/compiler.dir/src/compiler.cpp.o -c /home/leagueplayer/compiler/src/compiler.cpp",
+  "file": "/home/leagueplayer/compiler/src/compiler.cpp"
+},
+{
+  "directory": "/home/leagueplayer/compiler/build",
+  "command": "/usr/bin/g++  -I/home/leagueplayer/compiler/include -g -Wall -Wextra -Wpedantic -std=c++20 -o CMakeFiles/compiler.dir/src/ErrorReporter.cpp.o -c /home/leagueplayer/compiler/src/ErrorReporter.cpp",
+  "file": "/home/leagueplayer/compiler/src/ErrorReporter.cpp"
 },
 {
   "directory": "/home/leagueplayer/compiler/build",

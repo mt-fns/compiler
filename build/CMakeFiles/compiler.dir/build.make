@@ -69,24 +69,52 @@ include CMakeFiles/compiler.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/compiler.dir/flags.make
 
-CMakeFiles/compiler.dir/src/main.cpp.o: CMakeFiles/compiler.dir/flags.make
-CMakeFiles/compiler.dir/src/main.cpp.o: ../src/main.cpp
-CMakeFiles/compiler.dir/src/main.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leagueplayer/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/compiler.dir/src/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/src/main.cpp.o -MF CMakeFiles/compiler.dir/src/main.cpp.o.d -o CMakeFiles/compiler.dir/src/main.cpp.o -c /home/leagueplayer/compiler/src/main.cpp
+CMakeFiles/compiler.dir/src/Colour.cpp.o: CMakeFiles/compiler.dir/flags.make
+CMakeFiles/compiler.dir/src/Colour.cpp.o: ../src/Colour.cpp
+CMakeFiles/compiler.dir/src/Colour.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leagueplayer/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/compiler.dir/src/Colour.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/src/Colour.cpp.o -MF CMakeFiles/compiler.dir/src/Colour.cpp.o.d -o CMakeFiles/compiler.dir/src/Colour.cpp.o -c /home/leagueplayer/compiler/src/Colour.cpp
 
-CMakeFiles/compiler.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compiler.dir/src/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leagueplayer/compiler/src/main.cpp > CMakeFiles/compiler.dir/src/main.cpp.i
+CMakeFiles/compiler.dir/src/Colour.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compiler.dir/src/Colour.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leagueplayer/compiler/src/Colour.cpp > CMakeFiles/compiler.dir/src/Colour.cpp.i
 
-CMakeFiles/compiler.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compiler.dir/src/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leagueplayer/compiler/src/main.cpp -o CMakeFiles/compiler.dir/src/main.cpp.s
+CMakeFiles/compiler.dir/src/Colour.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compiler.dir/src/Colour.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leagueplayer/compiler/src/Colour.cpp -o CMakeFiles/compiler.dir/src/Colour.cpp.s
+
+CMakeFiles/compiler.dir/src/compiler.cpp.o: CMakeFiles/compiler.dir/flags.make
+CMakeFiles/compiler.dir/src/compiler.cpp.o: ../src/compiler.cpp
+CMakeFiles/compiler.dir/src/compiler.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leagueplayer/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/compiler.dir/src/compiler.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/src/compiler.cpp.o -MF CMakeFiles/compiler.dir/src/compiler.cpp.o.d -o CMakeFiles/compiler.dir/src/compiler.cpp.o -c /home/leagueplayer/compiler/src/compiler.cpp
+
+CMakeFiles/compiler.dir/src/compiler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compiler.dir/src/compiler.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leagueplayer/compiler/src/compiler.cpp > CMakeFiles/compiler.dir/src/compiler.cpp.i
+
+CMakeFiles/compiler.dir/src/compiler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compiler.dir/src/compiler.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leagueplayer/compiler/src/compiler.cpp -o CMakeFiles/compiler.dir/src/compiler.cpp.s
+
+CMakeFiles/compiler.dir/src/ErrorReporter.cpp.o: CMakeFiles/compiler.dir/flags.make
+CMakeFiles/compiler.dir/src/ErrorReporter.cpp.o: ../src/ErrorReporter.cpp
+CMakeFiles/compiler.dir/src/ErrorReporter.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leagueplayer/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/compiler.dir/src/ErrorReporter.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/src/ErrorReporter.cpp.o -MF CMakeFiles/compiler.dir/src/ErrorReporter.cpp.o.d -o CMakeFiles/compiler.dir/src/ErrorReporter.cpp.o -c /home/leagueplayer/compiler/src/ErrorReporter.cpp
+
+CMakeFiles/compiler.dir/src/ErrorReporter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compiler.dir/src/ErrorReporter.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leagueplayer/compiler/src/ErrorReporter.cpp > CMakeFiles/compiler.dir/src/ErrorReporter.cpp.i
+
+CMakeFiles/compiler.dir/src/ErrorReporter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compiler.dir/src/ErrorReporter.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leagueplayer/compiler/src/ErrorReporter.cpp -o CMakeFiles/compiler.dir/src/ErrorReporter.cpp.s
 
 CMakeFiles/compiler.dir/src/Position.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/src/Position.cpp.o: ../src/Position.cpp
 CMakeFiles/compiler.dir/src/Position.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leagueplayer/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/compiler.dir/src/Position.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leagueplayer/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/compiler.dir/src/Position.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/src/Position.cpp.o -MF CMakeFiles/compiler.dir/src/Position.cpp.o.d -o CMakeFiles/compiler.dir/src/Position.cpp.o -c /home/leagueplayer/compiler/src/Position.cpp
 
 CMakeFiles/compiler.dir/src/Position.cpp.i: cmake_force
@@ -100,7 +128,7 @@ CMakeFiles/compiler.dir/src/Position.cpp.s: cmake_force
 CMakeFiles/compiler.dir/src/Scanner.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/src/Scanner.cpp.o: ../src/Scanner.cpp
 CMakeFiles/compiler.dir/src/Scanner.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leagueplayer/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/compiler.dir/src/Scanner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leagueplayer/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/compiler.dir/src/Scanner.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/src/Scanner.cpp.o -MF CMakeFiles/compiler.dir/src/Scanner.cpp.o.d -o CMakeFiles/compiler.dir/src/Scanner.cpp.o -c /home/leagueplayer/compiler/src/Scanner.cpp
 
 CMakeFiles/compiler.dir/src/Scanner.cpp.i: cmake_force
@@ -114,7 +142,7 @@ CMakeFiles/compiler.dir/src/Scanner.cpp.s: cmake_force
 CMakeFiles/compiler.dir/src/Source.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/src/Source.cpp.o: ../src/Source.cpp
 CMakeFiles/compiler.dir/src/Source.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leagueplayer/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/compiler.dir/src/Source.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leagueplayer/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/compiler.dir/src/Source.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/src/Source.cpp.o -MF CMakeFiles/compiler.dir/src/Source.cpp.o.d -o CMakeFiles/compiler.dir/src/Source.cpp.o -c /home/leagueplayer/compiler/src/Source.cpp
 
 CMakeFiles/compiler.dir/src/Source.cpp.i: cmake_force
@@ -128,7 +156,7 @@ CMakeFiles/compiler.dir/src/Source.cpp.s: cmake_force
 CMakeFiles/compiler.dir/src/Token.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/src/Token.cpp.o: ../src/Token.cpp
 CMakeFiles/compiler.dir/src/Token.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leagueplayer/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/compiler.dir/src/Token.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leagueplayer/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/compiler.dir/src/Token.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/src/Token.cpp.o -MF CMakeFiles/compiler.dir/src/Token.cpp.o.d -o CMakeFiles/compiler.dir/src/Token.cpp.o -c /home/leagueplayer/compiler/src/Token.cpp
 
 CMakeFiles/compiler.dir/src/Token.cpp.i: cmake_force
@@ -141,7 +169,9 @@ CMakeFiles/compiler.dir/src/Token.cpp.s: cmake_force
 
 # Object files for target compiler
 compiler_OBJECTS = \
-"CMakeFiles/compiler.dir/src/main.cpp.o" \
+"CMakeFiles/compiler.dir/src/Colour.cpp.o" \
+"CMakeFiles/compiler.dir/src/compiler.cpp.o" \
+"CMakeFiles/compiler.dir/src/ErrorReporter.cpp.o" \
 "CMakeFiles/compiler.dir/src/Position.cpp.o" \
 "CMakeFiles/compiler.dir/src/Scanner.cpp.o" \
 "CMakeFiles/compiler.dir/src/Source.cpp.o" \
@@ -150,14 +180,16 @@ compiler_OBJECTS = \
 # External object files for target compiler
 compiler_EXTERNAL_OBJECTS =
 
-compiler: CMakeFiles/compiler.dir/src/main.cpp.o
+compiler: CMakeFiles/compiler.dir/src/Colour.cpp.o
+compiler: CMakeFiles/compiler.dir/src/compiler.cpp.o
+compiler: CMakeFiles/compiler.dir/src/ErrorReporter.cpp.o
 compiler: CMakeFiles/compiler.dir/src/Position.cpp.o
 compiler: CMakeFiles/compiler.dir/src/Scanner.cpp.o
 compiler: CMakeFiles/compiler.dir/src/Source.cpp.o
 compiler: CMakeFiles/compiler.dir/src/Token.cpp.o
 compiler: CMakeFiles/compiler.dir/build.make
 compiler: CMakeFiles/compiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leagueplayer/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable compiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leagueplayer/compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable compiler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compiler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

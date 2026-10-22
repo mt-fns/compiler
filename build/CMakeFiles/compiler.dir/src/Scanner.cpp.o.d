@@ -160,5 +160,7 @@ CMakeFiles/compiler.dir/src/Scanner.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc \
  /home/leagueplayer/compiler/include/Source.h /usr/include/c++/11/cstddef \
- /home/leagueplayer/compiler/include/Token.h /usr/include/c++/11/iostream \
- /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc
+ /home/leagueplayer/compiler/include/Token.h \
+ /home/leagueplayer/compiler/include/Colour.h \
+ /usr/include/c++/11/iostream /usr/include/c++/11/istream \
+ /usr/include/c++/11/bits/istream.tcc

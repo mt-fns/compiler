@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/compiler.dir/src/Colour.cpp.o"
+  "CMakeFiles/compiler.dir/src/Colour.cpp.o.d"
+  "CMakeFiles/compiler.dir/src/ErrorReporter.cpp.o"
+  "CMakeFiles/compiler.dir/src/ErrorReporter.cpp.o.d"
   "CMakeFiles/compiler.dir/src/Position.cpp.o"
   "CMakeFiles/compiler.dir/src/Position.cpp.o.d"
   "CMakeFiles/compiler.dir/src/Scanner.cpp.o"
@@ -7,8 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/compiler.dir/src/Source.cpp.o.d"
   "CMakeFiles/compiler.dir/src/Token.cpp.o"
   "CMakeFiles/compiler.dir/src/Token.cpp.o.d"
-  "CMakeFiles/compiler.dir/src/main.cpp.o"
-  "CMakeFiles/compiler.dir/src/main.cpp.o.d"
+  "CMakeFiles/compiler.dir/src/compiler.cpp.o"
+  "CMakeFiles/compiler.dir/src/compiler.cpp.o.d"
   "compiler"
   "compiler.pdb"
 )
